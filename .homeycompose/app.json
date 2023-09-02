@@ -1,0 +1,29 @@
+{
+  "id": "page.rossouw.homey.zooz",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#A0A0A0",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Zooz Device Support"
+  },
+  "description": {
+    "en": "Add support for Zooz devices"
+  },
+  "category": [
+    "security"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Johan Rossouw",
+    "email": "johan@rossouw.page"
+  }
+}

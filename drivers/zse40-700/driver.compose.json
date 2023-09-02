@@ -1,0 +1,42 @@
+{
+  "name": {
+    "en": "Zooz ZSE40 4-IN-1 Sensor 700"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "measure_humidity",
+    "measure_luminance",
+    "measure_temperature",
+    "alarm_motion"
+  ],
+  "energy": {
+    "batteries": ["CR123A"]
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  },
+  "zwave": {
+    "manufacturerId": 634,
+    "productTypeId": [
+      8225
+    ],
+    "productId": [
+      8449
+    ],
+    "zwaveAllianceProductId": 4612,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Use a paperclip to press the Z-Wave button twice for inclusion"
+      }
+    }
+  }
+}

@@ -1,2 +1,3 @@
-# page.rossouw.homey.zooz
-Homey Pro support for Zooz devices
+# Zooz Device Support
+
+Add support for Zooz devices
