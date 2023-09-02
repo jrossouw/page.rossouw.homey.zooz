@@ -22,7 +22,9 @@ class Zse40 extends ZwaveDevice {
       report: 'BATTERY_REPORT',
       reportParser: (report) => {
         this.log('Battery report');
-        this.log(report);
+        const level = Number(report['Battery Level']);
+        this.log(level);
+        this.setCapabilityValue('measure_battery', level);
       },
     });
 
