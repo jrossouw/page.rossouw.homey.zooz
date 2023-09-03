@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
-  "brandColor": "#A0A0A0",
+  "brandColor": "#000000",
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "Zooz Device Support"
+    "en": "Zooz 3rd Party"
   },
   "description": {
     "en": "Add support for Zooz devices"
@@ -72,7 +72,122 @@
         }
       },
       "id": "zse40-700",
-      "settings": []
+      "settings": [
+        {
+          "id": "temperature_sensor_unit",
+          "type": "number",
+          "label": {
+            "en": "Temperature sensor unit"
+          },
+          "value": 0,
+          "attr": {
+            "min": 0,
+            "max": 1
+          },
+          "hint": {
+            "en": "0 – Celsius. 1 – Fahrenheit"
+          },
+          "zwave": {
+            "index": 1,
+            "size": 1
+          }
+        },
+        {
+          "id": "report_temperature_change",
+          "type": "number",
+          "label": {
+            "en": "Temperature Change Reporting"
+          },
+          "value": 10,
+          "attr": {
+            "min": 1,
+            "max": 50
+          },
+          "hint": {
+            "en": "Set temperature change to be reported by the sensor, 1 - 50 (where 1 stands for 0.1 degree C and 50 stands for 5 degrees)"
+          },
+          "zwave": {
+            "index": 2,
+            "size": 1
+          }
+        },
+        {
+          "id": "report_humidity_change",
+          "type": "number",
+          "label": {
+            "en": "Humidity Change Reporting"
+          },
+          "value": 10,
+          "attr": {
+            "min": 1,
+            "max": 50
+          },
+          "hint": {
+            "en": "Set humidity change to be reported by the sensor, 1 - 50 (where 1 stands for 1% and 50 stands for 50%)"
+          },
+          "zwave": {
+            "index": 3,
+            "size": 1
+          }
+        },
+        {
+          "id": "report_light_level_change",
+          "type": "number",
+          "label": {
+            "en": "Light Level Change Reporting"
+          },
+          "value": 10,
+          "attr": {
+            "min": 1,
+            "max": 50
+          },
+          "hint": {
+            "en": "Set light level change to be reported by the sensor, 1 - 50 (where 1 stands for 1% and 50 stands for 50%)"
+          },
+          "zwave": {
+            "index": 4,
+            "size": 1
+          }
+        },
+        {
+          "id": "motion_sensor_trigger_interval",
+          "type": "number",
+          "label": {
+            "en": "Motion Sensor Trigger Interval"
+          },
+          "value": 15,
+          "attr": {
+            "min": 15,
+            "max": 255
+          },
+          "hint": {
+            "en": "15 - 255 where 15 stands for 15 seconds and 255 stands for 255 seconds"
+          },
+          "zwave": {
+            "index": 5,
+            "size": 2
+          }
+        },
+        {
+          "id": "pir_sensitivity",
+          "type": "number",
+          "label": {
+            "en": "PIR Sensitivity"
+          },
+          "value": 3,
+          "attr": {
+            "min": 1,
+            "max": 7
+          },
+          "hint": {
+            "en": "1 - 7 where 1 = very high sensitivity and 7 = very low sensitivity"
+          },
+          "zwave": {
+            "index": 6,
+            "size": 1
+          }
+        }
+      ]
     }
   ]
 }

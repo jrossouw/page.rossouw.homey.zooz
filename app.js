@@ -1,5 +1,7 @@
 'use strict';
 
+require('inspector').open(9229, '0.0.0.0');
+
 const Homey = require('homey');
 
 class MyApp extends Homey.App {
