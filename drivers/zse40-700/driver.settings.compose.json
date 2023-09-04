@@ -77,7 +77,8 @@
     },
     "zwave": {
       "index": 5,
-      "size": 2
+      "size": 1,
+      "signed": false
     }
   },
   {
