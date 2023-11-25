@@ -25,5 +25,9 @@
   "author": {
     "name": "Johan Rossouw",
     "email": "johan@rossouw.page"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jrossouw/page.rossouw.homey.zooz/issues"
+  },
+  "source": "https://github.com/jrossouw/page.rossouw.homey.zooz"
 }
