@@ -1,5 +1,5 @@
 {
-  "id": "page.rossouw.homey.zooz",
+  "id": "page.rossouw.zooz",
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
@@ -8,10 +8,10 @@
     "local"
   ],
   "name": {
-    "en": "Zooz 3rd Party"
+    "en": "Zooz Drivers"
   },
   "description": {
-    "en": "Add support for Zooz devices"
+    "en": "Home automation by Zooz"
   },
   "category": [
     "security"
